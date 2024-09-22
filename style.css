@@ -1,0 +1,546 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+overflow-x:hidden;
+}
+
+.main {
+
+    width: 100%;
+    /* margin: 60px; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+background-color: #E0E0E0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.pikbest.com/video/20240530/camping-in-the-mountains-at-night_10589638.jpg!w700wp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* overflow: scroll; */
+}
+
+.nav {
+    width: 100vw;
+    height: 80px;
+    background-color: #fff;
+    /* position: fixed; */
+
+}
+
+.nav {
+    display: flex;
+    gap: 28%;
+    justify-content: center;
+    align-items: center;
+    background-color: #243B56;
+}
+
+.navc ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.navc ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.nave {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navb {
+    background-color: white;
+    color: #243B56;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    font-size: 16px;
+}
+
+.nave a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav .logo  {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 9px;
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/41/88/travel-icon-in-colorful-vector-8144188.jpg);
+    background-size: cover;
+}
+
+.div1 .enjoy {
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1 .enjoy h1 {
+    color: white;
+    font-size: 70px;
+
+}
+
+.div1 .enjoy p {
+    margin-top: 20px;
+    color: white;
+    opacity: .6;
+}
+
+/* div1 close */
+.div2 {
+    height: 100vh;
+    width: 100%;
+    background-color:#E0E0E0;
+    display: flex;
+    overflow: hidden;
+}
+
+.divl {
+    width: 50%;
+    height: auto;
+}
+.divu{
+    height: 500px;
+    width: 400px;
+    /* background-color: red; */
+    border-radius: 30px;
+    margin: 90px;
+    background-image: url(https://media.istockphoto.com/id/493078588/photo/photographing-in-sri-lanka-jungle.jpg?s=612x612&w=0&k=20&c=IKIbB6DLh1tpKYV_kAF8RMStQAn3KofT__mKu8eysPQ=);
+}
+.divd{
+    background-position: -250px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    /* background-color: blue; */
+    border-radius: 30px;
+    position:absolute;
+    transform: translate(70%,-110%);
+    background-image: url(https://media.istockphoto.com/id/1317499240/video/young-woman-hiking-and-looking-at-camera.jpg?s=640x640&k=20&c=qOb_LWnt_dWME8SP81CvyiADWOT_z011xJBYkVUVo4U=);
+}
+
+.divr {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+}
+
+.divr h3 {
+    color: #243B56;
+    padding: 20px;
+    padding-left: 35px;
+}
+
+.divr h1 {
+    margin: 40px;
+    font-size: 40px;
+}
+
+.divr p {
+    margin: 40px;
+    opacity: .9;
+  
+}
+
+.divr button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 50px;
+    margin-left: 40px;
+    background-color: rgb(5, 39, 5);
+    color: white;
+}
+
+/* div2 close  */
+.div3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #E0E0E0;
+    display: flex;
+    overflow: hidden;
+}
+.gray1{
+     padding: 4%;
+     width: 50%;
+     /* background-color: red ; */
+      display: flex;
+      flex-direction: column;
+      
+
+}
+.gray1 h3{
+    color: #243B56;
+    font-size: 20px;
+}
+.gray1 h1{
+    margin-top: 40px;
+    font-size: 40px;
+}
+.gray1 p{
+    margin-top: 35px;
+    opacity: .6;
+}
+.gray1 .wed{
+    width: 70%; 
+    background-color:#E0E0E0;
+    height: 60px;
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+   
+}
+.gray1 .images{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/41/88/travel-icon-in-colorful-vector-8144188.jpg);
+}
+.gray1 .tests{
+    display: flex;
+    flex-direction: column;
+}
+
+.gray1 button{
+    margin-top: 60px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #243B56;
+    color: white;
+
+}
+.gray2{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.gray2 .boxa{
+    height: 48%;
+    width: 45%;
+    background-color: red;
+    margin: 1%;
+}
+.gray2 #box1{
+    background-position: center;
+    background-image: url(https://img.freepik.com/free-photo/male-female-tourists-are-enjoying-forest_1150-5702.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716595200&semt=ais_user);
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.gray2 #box2{
+    background-position: center;
+    background-image: url(https://media.istockphoto.com/id/1367397178/photo/friends-holding-hands-to-hiking-in-the-forest.jpg?s=612x612&w=0&k=20&c=3mgaG-mQChOyEqpCutuXKzaIHP9SxRw4Mr-d3kpsS-w=);
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+.gray2 #box3{
+    background-position: center;
+    background-image: url(https://media.istockphoto.com/id/1316244267/photo/happy-woman-looking-aroung-while-hiking-in-a-forest.jpg?s=612x612&w=0&k=20&c=YqQSFpcn6dLLQw6BrE5GEtnr7qXA6eEiSYiKmKA-lcw=);
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+.gray2 #box4{
+    background-position: center;
+    background-image: url(https://st2.depositphotos.com/1005147/50195/i/450/depositphotos_501959606-stock-photo-young-girl-camera-backpack-park.jpg);
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+/* div3 end  */
+/* div4 start  */
+.div4{
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+background-color: #E0E0E0;
+}
+.divdu{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.divdu h3{
+color: #243B56 ;
+padding-top: 20px;
+font-size: 27px;
+}
+.divdu h1{
+font-size: 40px;
+}
+.divdu span{
+width: 700px;
+}
+.divdd {
+height: 700px;
+width: 100%;
+/* background-color: red; */
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.divdd .dpa{
+width: 27%;
+height: 500px;
+background-color: blue;
+border-radius: 20px;
+background-image: url(https://static.gettyimages.com/display-sets/creative-landing/images/GettyImages-1907862843.jpg);
+background-position: center;
+}
+
+/* div5 */
+.div5{
+height: 120vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+background-color: #E0E0E0;
+}
+.divf{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.divf h3{
+color: #243B56 ;
+padding-top: 20px;
+font-size: 27px;
+}
+.divf h1{
+font-size: 40px;
+}
+.divf span{
+width: 800px;
+}
+.dmain{
+/* background-color: rgba(159, 24, 46, 0.39); */
+height: 700px;
+width: 100%;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+.dmain .dmain1{
+background-color: white;
+height: 300px;
+width: 45%;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+/* color: white; */
+}
+.mig{
+height: 300px;
+width: 40%;
+/* background-color: red; */
+border-radius: 20px;
+background-size: cover;
+background-image: url(https://i.pinimg.com/originals/97/60/d9/9760d95780e6a2e282fe334d60f7133b.jpg);
+}
+.dtest{
+height: 290px;
+width: 60%;
+}
+.dtest h2{
+margin-top: 25px;
+color: #243B56;
+}
+.dtest h3{
+margin-top: 30px;
+}
+.dtest p{
+margin-top: 30px;
+}
+/* div5 :end */
+.div6{
+height: 40vh;
+width: 100vw;
+background-color: #E0E0E0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.divss{
+height: 20vh ;
+width: 80%;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25%;   
+background-repeat: 10px;
+}
+.divss .divss3 button{
+width: 100px;
+height: 35px;
+border-radius: 10px;
+background-color: #243B56;
+color: white;
+}
+.divss .divss2{
+display: flex;
+flex-direction: column;
+gap: 60px;
+}
+.divss .divss2 h4{
+color: #243B56;
+}
+.divss .divss1{
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+.divss .divss1 h4{
+color: #243B56;
+}
+.div7{
+height: 70vh;
+width: 100%;
+background-color: #E0E0E0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.div7 .div7s1{
+height: 70vh;
+width: 35vw;
+/* background-color: red; */
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column ;
+gap: 50px;
+padding: 70px;
+}
+.div7 .div7s2{
+height: 70vh;
+width: 30vw;
+/* background-color: yellow; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.div7 .div7s3{
+height: 70vh;
+width: 35vw;
+/* background-color: green; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.div7 .div7s1 .div7s1a{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+background-image: url(https://cdn4.vectorstock.com/i/1000x1000/41/88/travel-icon-in-colorful-vector-8144188.jpg);
+background-size: cover;
+}
+.div7 .div7s1 .div7s1b span{
+width: 300px;
+}
+
+
+.div7 .div7s2 .div7s2a{
+height: 70vh;
+width: 15vw;
+/* background-color: #243B56; */
+display: flex;
+flex-direction: column;
+padding: 15px;
+gap: 30px;
+padding-top: 100px;
+}
+.div7 .div7s2 .div7s2b{
+height: 70vh;
+width: 15vw;
+/* background-color: #243B56; */
+display: flex;
+flex-direction: column;
+padding: 15px;
+gap: 30px;
+padding-top: 100px;
+}
+.div7 .div7s2 .div7s2b{
+height: 70vh;
+width: 15vw;
+/* background-color: #5f84ad; */
+}
+.div7 .div7s3 .div7s3a{
+height: 70vh;
+width: 15vw;
+/* background-color: gold; */
+display: flex;
+flex-direction: column;
+padding: 15px;
+gap: 30px;
+padding-top: 100px; 
+}
+.div7 .div7s3 .div7s3b{
+height: 70vh;
+width: 15vw;
+/* background-color: rgb(55, 49, 16); */
+display: flex;
+flex-direction: column;
+padding: 15px;
+gap: 30px;
+padding-top: 100px; 
+padding-left: 100px;
+}
+.div7s3bi{
+display: flex;justify-content: center;align-items: center;
+gap: 20px;
+}
+/* div7 end */
+.div8{
+height: 70px;
+width: 100%;
+background-color: #243B56;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
